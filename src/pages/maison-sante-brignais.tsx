@@ -5,7 +5,7 @@ import HeaderSimple from '@components/Header/HeaderSimple';
 import ImageBrignais from '@components/Image/ImageBrignais';
 import Layout from '@components/Layout';
 import Map from '@components/Map/Map';
-import {Seo} from "@components/Seo";
+import {Seo} from '@components/Seo';
 
 const BringaisPage: FC = (): ReactElement => {
   return (
@@ -53,8 +53,9 @@ const BringaisPage: FC = (): ReactElement => {
 };
 
 export default BringaisPage;
-export const Head = () => <Seo
-  title='Maisons de santé à Brignais'
-  description='Le cabinet de neuropsychologie de Lauralee Hébert est situé dans la maison de santé de Brignais, à proximité de Lyon.'
-/>;
-
+export const Head = () => (
+  <Seo
+    title="Maisons de santé à Brignais"
+    description="Le cabinet de neuropsychologie de Lauralee Hébert est situé dans la maison de santé de Brignais, à proximité de Lyon."
+  />
+);

@@ -34,6 +34,7 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "autoprefixer": "^10.4.13",
+    "gatsby-plugin-google-tagmanager": "^5.5.0",
     "gatsby-plugin-postcss": "^6.5.0",
     "gatsby-plugin-sitemap": "^6.5.0",
     "postcss": "^8.4.21",

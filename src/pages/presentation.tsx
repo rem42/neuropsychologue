@@ -4,7 +4,7 @@ import Education from '@components/Education/Education';
 import HeaderSimple from '@components/Header/HeaderSimple';
 import InfoAreaIconTitle from '@components/InfoAreas/InfoAreaIconTitle';
 import Layout from '@components/Layout';
-import {Seo} from "@components/Seo";
+import {Seo} from '@components/Seo';
 
 const PresentationPage: FC = (): ReactElement => {
   return (
@@ -62,8 +62,9 @@ const PresentationPage: FC = (): ReactElement => {
 };
 
 export default PresentationPage;
-export const Head = () => <Seo
-  title='Lauralee HEBERT - Psychologue - Neuropsychologue'
-  description='Parcours scolaire et formation de Lauralee HEBERT - Psychologue - Neuropsychologue'
-/>;
-
+export const Head = () => (
+  <Seo
+    title="Lauralee HEBERT - Psychologue - Neuropsychologue"
+    description="Parcours scolaire et formation de Lauralee HEBERT - Psychologue - Neuropsychologue"
+  />
+);

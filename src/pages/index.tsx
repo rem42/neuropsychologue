@@ -136,6 +136,6 @@ La restitution orale du bilan avec remise en main propre du compte-rendu.
 };
 
 export default IndexPage;
-export const Head = () => <Seo
-  description="Présentation de la neuropsychologie pour les enfants, adolescents, adultes et personnes âgées, de difficultés de concentrations, de mémoires, de comportements, de la gestion des émotions, des apprentissages, de l'anxiété à Lyon et Brignais."
-/>;
+export const Head = () => (
+  <Seo description="Présentation de la neuropsychologie pour les enfants, adolescents, adultes et personnes âgées, de difficultés de concentrations, de mémoires, de comportements, de la gestion des émotions, des apprentissages, de l'anxiété à Lyon et Brignais." />
+);

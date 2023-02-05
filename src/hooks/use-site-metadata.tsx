@@ -1,5 +1,4 @@
 import {graphql, useStaticQuery} from 'gatsby';
-import {getImage} from "gatsby-plugin-image";
 
 export const useSiteMetadata = () => {
   const data = useStaticQuery(graphql`

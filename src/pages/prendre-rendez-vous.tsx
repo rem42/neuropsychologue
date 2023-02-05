@@ -3,9 +3,9 @@ import React, {FC, ReactElement} from 'react';
 import HeaderSimple from '@components/Header/HeaderSimple';
 import Layout from '@components/Layout';
 import Paragraph from '@components/Paragraph/Paragraph';
-import {Seo} from "@components/Seo";
+import {Seo} from '@components/Seo';
 
-const ContactPage: FC = (): ReactElement => {
+const PrendreRendezVousPage: FC = (): ReactElement => {
   return (
     <>
       <Layout>
@@ -16,9 +16,10 @@ const ContactPage: FC = (): ReactElement => {
   );
 };
 
-export default ContactPage;
-export const Head = () => <Seo
-  title='Prendre rendez-vous pour un bilan neuropsychologique'
-  description='Prendre rendez-vous pour un bilan neuropsychologique à Lyon ou Brignais'
-/>;
-
+export default PrendreRendezVousPage;
+export const Head = () => (
+  <Seo
+    title="Prendre rendez-vous pour un bilan neuropsychologique"
+    description="Prendre rendez-vous pour un bilan neuropsychologique à Lyon ou Brignais"
+  />
+);

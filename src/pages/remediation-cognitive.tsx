@@ -4,7 +4,7 @@ import TwoColumnWithImage from '@components/Block/TwoColumnWithImage';
 import HeaderSimple from '@components/Header/HeaderSimple';
 import Layout from '@components/Layout';
 import Paragraph from '@components/Paragraph/Paragraph';
-import {Seo} from "@components/Seo";
+import {Seo} from '@components/Seo';
 
 const RemediationCognitivePage: FC = (): ReactElement => {
   return (
@@ -41,8 +41,9 @@ const RemediationCognitivePage: FC = (): ReactElement => {
 };
 
 export default RemediationCognitivePage;
-export const Head = () => <Seo
-  title='Remédiation cognitive enfants et adultes à Lyon, Brignais'
-  description='La remédiation cognitive est une prise en charge qui permet de rééduquer les troubles cognitifs. Elle est proposée à tout âge et peut être réalisée de différentes manières.'
-/>;
-
+export const Head = () => (
+  <Seo
+    title="Remédiation cognitive enfants et adultes à Lyon, Brignais"
+    description="La remédiation cognitive est une prise en charge qui permet de rééduquer les troubles cognitifs. Elle est proposée à tout âge et peut être réalisée de différentes manières."
+  />
+);

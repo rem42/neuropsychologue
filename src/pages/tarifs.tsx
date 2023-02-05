@@ -5,7 +5,7 @@ import Layout from '@components/Layout';
 import Paragraph from '@components/Paragraph/Paragraph';
 import PricingHero from '@components/Pricing/PricingHero';
 import PricingList from '@components/Pricing/PricingList';
-import {Seo} from "@components/Seo";
+import {Seo} from '@components/Seo';
 
 const TarifsPage: FC = (): ReactElement => {
   return (
@@ -111,8 +111,9 @@ const TarifsPage: FC = (): ReactElement => {
 };
 
 export default TarifsPage;
-export const Head = () => <Seo
-  title='Tarifs des bilans neuropsychologique enfants et adultes à Lyon, Brignais'
-  description='Tarifs des bilans neuropsychologiques, psychométriques et du quotient intellectuel QI pour enfants et adultes à Lyon, Brignais'
-/>;
-
+export const Head = () => (
+  <Seo
+    title="Tarifs des bilans neuropsychologique enfants et adultes à Lyon, Brignais"
+    description="Tarifs des bilans neuropsychologiques, psychométriques et du quotient intellectuel QI pour enfants et adultes à Lyon, Brignais"
+  />
+);

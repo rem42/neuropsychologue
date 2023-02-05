@@ -1,7 +1,7 @@
+import {graphql, useStaticQuery} from 'gatsby';
 import React, {FC, ReactElement} from 'react';
 
 import {useSiteMetadata} from '../hooks/use-site-metadata';
-import {graphql, useStaticQuery} from "gatsby";
 
 export const Seo: FC<{title?: string; description?: string; pathname?: string; children?: ReactElement}> = ({
   title,
@@ -19,6 +19,7 @@ export const Seo: FC<{title?: string; description?: string; pathname?: string; c
 
   return (
     <>
+      <html lang="fr"></html>
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
@@ -27,10 +28,7 @@ export const Seo: FC<{title?: string; description?: string; pathname?: string; c
       <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
-      <link
-        rel="icon"
-        href={image}
-      />
+      <link rel="icon" href={image} />
       {children}
     </>
   );

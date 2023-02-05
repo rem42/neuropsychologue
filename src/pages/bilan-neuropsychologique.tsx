@@ -7,8 +7,8 @@ import CardInfoIconLeft from '@components/Card/CardInfoIconLeft';
 import HeaderSimple from '@components/Header/HeaderSimple';
 import Heading2Badge from '@components/Heading/Heading2Badge';
 import Paragraph from '@components/Paragraph/Paragraph';
+import {Seo} from '@components/Seo';
 import Skew from '@components/Skew/Skew';
-import {Seo} from "@components/Seo";
 
 const props = {
   cards: [
@@ -162,8 +162,9 @@ const BilanNeuropsychologiquePage: FC = (): ReactElement => {
 };
 
 export default BilanNeuropsychologiquePage;
-export const Head = () => <Seo
-  title='Bilan neuropsychologique enfants et adultes à Lyon, Brignais'
-  description='Le bilan neuropsychologique permet de comprendre les difficultés cognitives et de mettre en place des stratégies adaptées.'
-/>;
-
+export const Head = () => (
+  <Seo
+    title="Bilan neuropsychologique enfants et adultes à Lyon, Brignais"
+    description="Le bilan neuropsychologique permet de comprendre les difficultés cognitives et de mettre en place des stratégies adaptées."
+  />
+);

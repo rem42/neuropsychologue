@@ -11,7 +11,7 @@ const links: LinkItem[] = [
   {id: 'bilan', to: '/bilan-neuropsychologique', children: 'Bilan neuropsychologique'},
   {id: 'remediation', to: '/remediation-cognitive', children: 'Remédiation cognitive'},
   {id: 'tarifs', to: '/tarifs', children: 'Tarifs'},
-  {id: 'contact', to: '/contact', children: 'Contact'},
+  {id: 'contact', to: '/prendre-rendez-vous', children: 'Contact'},
 ];
 
 export default function Navbar() {

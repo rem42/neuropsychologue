@@ -5,7 +5,7 @@ import HeaderSimple from '@components/Header/HeaderSimple';
 import ImageLyon from '@components/Image/ImageLyon';
 import Layout from '@components/Layout';
 import Map from '@components/Map/Map';
-import {Seo} from "@components/Seo";
+import {Seo} from '@components/Seo';
 
 const LyonPage: FC = (): ReactElement => {
   return (
@@ -53,8 +53,9 @@ const LyonPage: FC = (): ReactElement => {
 };
 
 export default LyonPage;
-export const Head = () => <Seo
-  title='Cabinet Hebella neuropsychologue à Lyon'
-  description='Le cabinet vous accueille dans le confort de ses installations qui vous permettent de vous détendre pour passer les tests cognitifs ou de suivre les séances de remédiation en toute quiétude.'
-/>;
-
+export const Head = () => (
+  <Seo
+    title="Cabinet Hebella neuropsychologue à Lyon"
+    description="Le cabinet vous accueille dans le confort de ses installations qui vous permettent de vous détendre pour passer les tests cognitifs ou de suivre les séances de remédiation en toute quiétude."
+  />
+);
