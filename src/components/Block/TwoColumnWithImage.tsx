@@ -20,9 +20,9 @@ const TwoColumnWithImage: FC<TwoColumnWithImageProps> = ({content, image, revers
   return (
     <>
       <section className="text-gray-600 body-font overflow-hidden">
-        <div className="container w-3/4 px-5 mx-auto">
+        <div className="container md:w-3/4 px-5 mx-auto">
           <div className={'flex flex-wrap' + classReverse}>
-            <div className="px-12 md:w-2/3 flex flex-col items-start">
+            <div className="md:px-12 md:w-2/3 flex flex-col items-start">
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">{content.title}</h2>
               {content.description.map((description, index) => (
                 <div key={index} className="leading-relaxed mb-8" dangerouslySetInnerHTML={{__html: description}} />

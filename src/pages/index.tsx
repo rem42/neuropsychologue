@@ -70,11 +70,11 @@ const IndexPage: React.FC<PageProps> = () => {
             },
           }}
         />
-        <section className="w-full md:w-8/12 mx-auto">
+        <section className="w-full md:w-8/12 mx-auto px-6">
           <h2 className="text-4xl font-bold mt-3 mb-1 text-blueGray-700">
             Dans ce sens, le neuropsychologue a deux grandes mission principales
           </h2>
-          <div className="md:columns-2 mt-20">
+          <div className="md:columns-2 mt-20 space-y-4">
             <CardInfoFullColor
               {...{
                 color: 'lightBlue',

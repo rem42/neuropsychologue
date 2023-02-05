@@ -54,7 +54,10 @@ const BilanNeuropsychologiquePage: FC = (): ReactElement => {
   return (
     <>
       <Layout>
-        <HeaderSimple title="Pourquoi un bilan neuropsychologique ?" />
+        <HeaderSimple
+          title="Pourquoi un bilan neuropsychologique ?"
+          titleSize='text-4xl'
+        />
         <Paragraph text="<p><strong>Le bilan neuropsychologique</strong> a pour objectif de mettre en lumière <u>les mécanismes cognitives à l’origine des difficultés</u>, constatés par le patient ou son entourage,  et ainsi aider au diagnostic.</p>" />
         <TwoColumnWithImage
           {...{

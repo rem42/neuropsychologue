@@ -1,13 +1,17 @@
 import React, {FC, ReactElement} from 'react';
 
-const HeaderSimple: FC<{title: string; subtitle?: string}> = ({title, subtitle}): ReactElement => {
+const HeaderSimple: FC<{
+  title: string;
+  titleSize?: string;
+  subtitle?: string
+}> = ({title,titleSize= 'text-5xl', subtitle}): ReactElement => {
   return (
     <>
       <div className={'p-0 flex items-center overflow-hidden relative min-h-200-px'}>
         <div className="absolute w-full h-full bg-lightBlue-500 z-1"></div>
-        <div className="container mx-auto px-4 z-3 relative w-6/12">
+        <div className="container mx-auto px-4 z-3 relative md:w-6/12">
           <div className="justify-center flex flex-wrap flex-col -mx-4 text-center">
-            <h1 className="text-5xl font-bold text-white leading-tight mt-0">{title}</h1>
+            <h1 className={`${titleSize} font-bold text-white leading-tight mt-0`}>{title}</h1>
             {subtitle && <h2 className="text-2xl text-white mb-24">{subtitle}</h2>}
           </div>
         </div>
