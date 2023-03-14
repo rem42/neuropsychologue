@@ -58,7 +58,7 @@ function Layout({children}) {
           {
             title: 'Solène LABOUCHE',
             description: 'Psychologue - Neuropsychologue',
-            phone: '0600000000',
+            phone: '06 47 93 12 40',
           },
         ]}
         copyRight={new Date().getFullYear() + ' © Rémy BRUYERE'}

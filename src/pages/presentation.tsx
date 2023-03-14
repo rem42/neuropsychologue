@@ -34,8 +34,7 @@ const PresentationPage: FC = (): ReactElement => {
               ],
             },
             {
-              title:
-                'Master en psychologie parcours neuropsychologie – Université  lumière de Lyon 2 / Université de Rouen',
+              title: 'Master en psychologie parcours neuropsychologie – Université  lumière de Lyon 2 / Université de Rouen',
               description: [
                 'Mémoire : Analyse de l’impact de l’effet de familiarité sur la reconnaissance d’un stimuli visuel',
                 'Mémoire : Analyse de mécanisme impliqués dans la reconnaissance des visages – étude électrophysiologique et comportementale',
@@ -56,6 +55,39 @@ const PresentationPage: FC = (): ReactElement => {
             />
           </div>
         </div>
+        <Education
+          title="Solène LABOUCHE"
+          subtitle="Psychologue - Neuropsychologue"
+          jobs={[
+            {
+              title: 'Formation de technicienne en hypnose Ericksonienne',
+              description: [],
+            },
+            {
+              title: 'Neuropsychologue en EHPAD',
+              description: [],
+            },
+            {
+              title: 'Recherche sur l\'apprentissage de la lecture chez les enfant porteur de la trisomie 21',
+              description: [],
+            },
+            {
+              title: 'HDJ des charpennes',
+              description: ['Validation titre professionnel', 'Plus de 500h de stage'],
+            },
+            {
+              title: 'Master 2 en psychologie cognitive des apprentissages – Université  lumière de Lyon 2',
+              description: [
+                'Trouble de l’attention avec/sans hyperactivité, Haut potentiel intellectuel, L’enjeu de la revalidation, neuropsychologie et troubles des apprentissages chez l’enfant, etc.',
+              ],
+            },
+            {
+              title: 'Master 1 en psychologie parcours neuropsychologie – Université  lumière de Lyon 2',
+              description: [],
+            },
+          ]}
+          subDescription=""
+        />
       </Layout>
     </>
   );

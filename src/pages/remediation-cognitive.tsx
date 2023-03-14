@@ -5,6 +5,7 @@ import HeaderSimple from '@components/Header/HeaderSimple';
 import Layout from '@components/Layout';
 import Paragraph from '@components/Paragraph/Paragraph';
 import {Seo} from '@components/Seo';
+import {StaticImage} from "gatsby-plugin-image";
 
 const RemediationCognitivePage: FC = (): ReactElement => {
   return (
@@ -32,7 +33,7 @@ const RemediationCognitivePage: FC = (): ReactElement => {
                   '</ul>',
               ],
             },
-            image: 'assets/img/remediation.jpg',
+            image: <StaticImage alt='' className="w-48 m-auto flex-shrink-0 rounded" src={'../images/remediation.jpg'} />,
           }}
         />
       </Layout>

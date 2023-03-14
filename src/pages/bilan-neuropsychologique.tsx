@@ -9,6 +9,7 @@ import Heading2Badge from '@components/Heading/Heading2Badge';
 import Paragraph from '@components/Paragraph/Paragraph';
 import {Seo} from '@components/Seo';
 import Skew from '@components/Skew/Skew';
+import {StaticImage} from "gatsby-plugin-image";
 
 const props = {
   cards: [
@@ -54,10 +55,7 @@ const BilanNeuropsychologiquePage: FC = (): ReactElement => {
   return (
     <>
       <Layout>
-        <HeaderSimple
-          title="Pourquoi un bilan neuropsychologique ?"
-          titleSize='text-4xl'
-        />
+        <HeaderSimple title="Pourquoi un bilan neuropsychologique ?" titleSize="text-4xl" />
         <Paragraph text="<p><strong>Le bilan neuropsychologique</strong> a pour objectif de mettre en lumière <u>les mécanismes cognitives à l’origine des difficultés</u>, constatés par le patient ou son entourage,  et ainsi aider au diagnostic.</p>" />
         <TwoColumnWithImage
           {...{
@@ -75,7 +73,7 @@ const BilanNeuropsychologiquePage: FC = (): ReactElement => {
               ],
             },
             reverse: true,
-            image: '../../images/fille-garcon.png',
+            image: <StaticImage alt='' className="w-48 m-auto flex-shrink-0 rounded" src={'../images/fille-garcon.png'} />,
           }}
         />
         <Paragraph
@@ -118,7 +116,7 @@ const BilanNeuropsychologiquePage: FC = (): ReactElement => {
                   '</ul>',
               ],
             },
-            image: '../../images/fille-garcon.png',
+            /*image: <StaticImage alt='' className="w-48 m-auto flex-shrink-0 rounded" src={'../images/fille-garcon.png'} />,*/
           }}
         />
         <Paragraph
@@ -149,7 +147,7 @@ const BilanNeuropsychologiquePage: FC = (): ReactElement => {
                 whiteContent: true,
               }}
             />
-            <div className="mt-12 flex flex-wrap -mx-4">
+            <div className="mt-12 flex flex-wrap items-center -mx-4">
               {props.cards.map((prop, key) => (
                 <div key={key} className="p-4 relative w-full lg:w-6/12">
                   <CardInfoIconLeft {...prop} />

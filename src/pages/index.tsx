@@ -51,7 +51,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
         <Hero2
           {...{
-            image: '../images/bulb-brain.png',
+            image: '../../images/bulb-brain.png',
             infoArea: {
               icon: 'fas fa-lightbulb',
               color: 'lightBlue',

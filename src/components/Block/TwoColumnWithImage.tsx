@@ -21,7 +21,7 @@ const TwoColumnWithImage: FC<TwoColumnWithImageProps> = ({content, image, revers
     <>
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container md:w-3/4 px-5 mx-auto">
-          <div className={'flex flex-wrap' + classReverse}>
+          <div className={'flex items-center flex-wrap' + classReverse}>
             <div className="md:px-12 md:w-2/3 flex flex-col items-start">
               <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">{content.title}</h2>
               {content.description.map((description, index) => (
@@ -38,7 +38,7 @@ const TwoColumnWithImage: FC<TwoColumnWithImageProps> = ({content, image, revers
             </div>
             <div className="px-12 md:w-1/3 flex flex-col items-start">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6">
-                {/*<StaticImage alt='' className="w-48 m-auto flex-shrink-0 rounded" src={image} />*/}
+                {image}
               </div>
             </div>
           </div>

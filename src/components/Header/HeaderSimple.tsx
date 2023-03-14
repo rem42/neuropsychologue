@@ -3,8 +3,8 @@ import React, {FC, ReactElement} from 'react';
 const HeaderSimple: FC<{
   title: string;
   titleSize?: string;
-  subtitle?: string
-}> = ({title,titleSize= 'text-5xl', subtitle}): ReactElement => {
+  subtitle?: string;
+}> = ({title, titleSize = 'text-5xl', subtitle}): ReactElement => {
   return (
     <>
       <div className={'p-0 flex items-center overflow-hidden relative min-h-200-px'}>
