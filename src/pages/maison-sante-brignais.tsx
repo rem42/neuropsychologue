@@ -27,16 +27,8 @@ const BringaisPage: FC = (): ReactElement => {
             title: 'Se déplacer à la maison de santé',
             list: [
               {
-                text: '<b>Métro</b> : ligne B, arrêt Guichard ou arrêt Saxe-Gambetta; ligne D, arrêt Garibaldi et arrêt Saxe-Gambetta.',
-                icon: 'fas fa-train-subway',
-              },
-              {
-                text: '<b>Bus</b> : ligne C4, C12, C14 - saxe gambetta, C7 Garibaldi gambetta, C9 et C 13 - Part-Dieu Renaudel, C11 - Abondance, C 15 - Rancy, bus 25',
-                icon: 'fas fa-bus',
-              },
-              {
-                text: '<b>Tramway</b> : ligne T1, arrêt palais de justice Mairie 3e',
-                icon: 'fas fa-train-tram',
+                text: '<b>Train</b> : Gare de Brignais, 10min à pied du cabinet (700m)',
+                icon: 'fas fa-train',
               },
               {
                 text: '<b>Voiture</b> : Places disponibles à proximité du cabinet',

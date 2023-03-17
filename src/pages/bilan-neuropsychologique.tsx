@@ -1,3 +1,4 @@
+import {StaticImage} from 'gatsby-plugin-image';
 import React, {FC, ReactElement} from 'react';
 
 import Layout from '@app/components/Layout';
@@ -9,7 +10,6 @@ import Heading2Badge from '@components/Heading/Heading2Badge';
 import Paragraph from '@components/Paragraph/Paragraph';
 import {Seo} from '@components/Seo';
 import Skew from '@components/Skew/Skew';
-import {StaticImage} from "gatsby-plugin-image";
 
 const props = {
   cards: [
@@ -73,7 +73,9 @@ const BilanNeuropsychologiquePage: FC = (): ReactElement => {
               ],
             },
             reverse: true,
-            image: <StaticImage alt='' className="w-48 m-auto flex-shrink-0 rounded" src={'../images/fille-garcon.png'} />,
+            image: (
+              <StaticImage alt="" className="w-48 m-auto flex-shrink-0 rounded" src={'../images/fille-garcon.png'} />
+            ),
           }}
         />
         <Paragraph

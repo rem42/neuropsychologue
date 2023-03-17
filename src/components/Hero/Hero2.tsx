@@ -1,7 +1,7 @@
+import {StaticImage} from 'gatsby-plugin-image';
 import React, {FC, ReactElement} from 'react';
 
 import InfoAreaIconTitleList from '../InfoAreas/Misc/InfoAreaIconTitleList';
-import {StaticImage} from "gatsby-plugin-image";
 
 const Hero2: FC<{
   image: string;

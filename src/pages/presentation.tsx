@@ -34,7 +34,8 @@ const PresentationPage: FC = (): ReactElement => {
               ],
             },
             {
-              title: 'Master en psychologie parcours neuropsychologie – Université  lumière de Lyon 2 / Université de Rouen',
+              title:
+                'Master en psychologie parcours neuropsychologie – Université  lumière de Lyon 2 / Université de Rouen',
               description: [
                 'Mémoire : Analyse de l’impact de l’effet de familiarité sur la reconnaissance d’un stimuli visuel',
                 'Mémoire : Analyse de mécanisme impliqués dans la reconnaissance des visages – étude électrophysiologique et comportementale',
@@ -68,7 +69,7 @@ const PresentationPage: FC = (): ReactElement => {
               description: [],
             },
             {
-              title: 'Recherche sur l\'apprentissage de la lecture chez les enfant porteur de la trisomie 21',
+              title: "Recherche sur l'apprentissage de la lecture chez les enfant porteur de la trisomie 21",
               description: [],
             },
             {

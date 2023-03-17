@@ -11,7 +11,7 @@ export interface TwoColumnWithImageProps {
       to: string;
     };
   };
-  image: string;
+  image: string | ReactElement;
   reverse?: boolean;
 }
 
@@ -37,9 +37,7 @@ const TwoColumnWithImage: FC<TwoColumnWithImageProps> = ({content, image, revers
               )}
             </div>
             <div className="px-12 md:w-1/3 flex flex-col items-start">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6">
-                {image}
-              </div>
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6">{image}</div>
             </div>
           </div>
         </div>

@@ -1,11 +1,11 @@
 import React, {FC, ReactElement} from 'react';
 
+import CardProfileFull from '@components/Card/CardProfileFull';
 import HeaderSimple from '@components/Header/HeaderSimple';
 import Layout from '@components/Layout';
 import Paragraph from '@components/Paragraph/Paragraph';
 import {Seo} from '@components/Seo';
-import CardProfileFull from "@components/Card/CardProfileFull";
-import Skew from "@components/Skew/Skew";
+import Skew from '@components/Skew/Skew';
 
 const PrendreRendezVousPage: FC = (): ReactElement => {
   return (
@@ -20,23 +20,23 @@ const PrendreRendezVousPage: FC = (): ReactElement => {
               <div className="flex flex-wrap text-center lg:text-center justify-center">
                 <div className="px-4 relative w-full lg:w-6/12 w-full md:w-6/12">
                   <CardProfileFull
-                    title='Lauralee HÉBERT'
-                    description='Psychologue - Neuropsychologue'
+                    title="Lauralee HÉBERT"
+                    description="Psychologue - Neuropsychologue"
                     list={[
-                      {icon: 'fas fa-map-marker-alt', text: 'Lyon & Brignais', 'color': 'lightBlue'},
-                      {icon: 'fas fa-phone', text: '06 52 45 35 38', 'color': 'teal'},
-                      {icon: 'fas fa-envelope', text: 'lhebert.neuropsychologue@gmail.com', 'color': 'indigo'},
+                      {icon: 'fas fa-map-marker-alt', text: 'Lyon & Brignais', color: 'lightBlue'},
+                      {icon: 'fas fa-phone', text: '06 52 45 35 38', color: 'teal'},
+                      {icon: 'fas fa-envelope', text: 'lhebert.neuropsychologue@gmail.com', color: 'indigo'},
                     ]}
                   />
                 </div>
                 <div className="px-4 relative w-full lg:w-6/12 w-full md:w-6/12">
                   <CardProfileFull
-                    title='Solène LABOUCHE'
-                    description='Psychologue - Neuropsychologue'
+                    title="Solène LABOUCHE"
+                    description="Psychologue - Neuropsychologue"
                     list={[
-                      {icon: 'fas fa-map-marker-alt', text: 'Brignais', 'color': 'lightBlue'},
-                      {icon: 'fas fa-phone', text: '06 47 93 12 40', 'color': 'teal'},
-                      {icon: 'fas fa-envelope', text: 'neuropsy.labouche@gmail.com', 'color': 'indigo'},
+                      {icon: 'fas fa-map-marker-alt', text: 'Brignais', color: 'lightBlue'},
+                      {icon: 'fas fa-phone', text: '06 47 93 12 40', color: 'teal'},
+                      {icon: 'fas fa-envelope', text: 'neuropsy.labouche@gmail.com', color: 'indigo'},
                     ]}
                   />
                 </div>
@@ -44,7 +44,7 @@ const PrendreRendezVousPage: FC = (): ReactElement => {
             </div>
           </div>
         </div>
-        <Skew background="bg-slate-300" color='text-white' />
+        <Skew background="bg-slate-300" color="text-white" />
       </Layout>
     </>
   );
