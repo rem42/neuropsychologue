@@ -88,7 +88,7 @@ const NavbarLinks: FC<{
               className="rounded-full mr-2"
               style={{width: '30px'}}
             />
-            <span>Lauralee HEBERT</span>
+            <span>neuropsychologue</span>
           </Link>
           <button
             className="ml-auto cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-slate-400 rounded bg-transparent block outline-none focus:outline-none text-slate-300 lg:hidden"
