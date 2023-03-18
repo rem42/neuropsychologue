@@ -9,7 +9,7 @@ const HeaderHome: FC<{props: HeaderHomeInterface}> = ({props}): ReactElement => 
       query {
         office: file(relativePath: {eq: "bureau.jpg"}) {
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(quality: 80) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }

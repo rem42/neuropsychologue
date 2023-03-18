@@ -87,6 +87,8 @@ const NavbarLinks: FC<{
               src={'../../images/picto_cerveau_half.png'}
               className="rounded-full mr-2"
               style={{width: '30px'}}
+              layout="constrained"
+              width={30}
             />
             <span>neuropsychologue</span>
           </Link>
