@@ -1,46 +1,47 @@
-import {HeadFC, Link, PageProps} from 'gatsby';
+import {HeadFC, PageProps} from 'gatsby';
 import * as React from 'react';
 
-const pageStyles = {
-  color: '#232129',
-  padding: '96px',
-  fontFamily: '-apple-system, Roboto, sans-serif, serif',
-};
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-};
-
-const paragraphStyles = {
-  marginBottom: 48,
-};
-const codeStyles = {
-  color: '#8A6534',
-  padding: 4,
-  backgroundColor: '#FFF4DB',
-  fontSize: '1.25rem',
-  borderRadius: 4,
-};
-
 const NotFoundPage: React.FC<PageProps> = () => {
+  const image = '../images/404.svg';
+  const color = 'blueGray';
+  const error = '404';
+  const title = 'Page non trouvée :(';
+  const description = "Oups ! On dirait que tu t'es perdu.";
+  const colors = {
+    light: 'text-blueGray-100',
+    dark: 'text-blueGray-800',
+    blueGray: 'text-blueGray-500',
+    red: 'text-red-500',
+    orange: 'text-orange-500',
+    amber: 'text-amber-500',
+    emerald: 'text-emerald-500',
+    teal: 'text-teal-500',
+    lightBlue: 'text-lightBlue-500',
+    indigo: 'text-indigo-500',
+    purple: 'text-purple-500',
+    pink: 'text-pink-500',
+  };
+  const className = 'font-bold text-10 sm:text-12 tracking-875 ' + colors[color];
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === 'development' ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
+    <>
+      <div className="h-screen overflow-hidden">
+        <div
+          className="absolute bg-cover bg-50 h-full w-full"
+          style={{
+            backgroundImage: 'url(' + image + ')',
+          }}
+        ></div>
+        <div className="container mx-auto px-4 h-full">
+          <div className="flex flex-wrap -mx-4 h-full items-center">
+            <div className="text-center px-4 relative w-full">
+              <h1 className={className}>{error}</h1>
+              <h4 className="text-3xl font-bold mb-2 mt-0">{title}</h4>
+              <p className="text-2xl font-normal leading-normal text-blueGray-500">{description}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
