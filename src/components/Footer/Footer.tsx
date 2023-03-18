@@ -95,7 +95,13 @@ const Footer: FC<FooterLargeInterface> = ({professionals, locations, openHours, 
               </div>
               <div className="w-full lg:w-6/12 px-4">
                 <div className="flex flex-wrap items-top mb-6">
-                  <StaticImage src={'../../images/picto_cerveau.svg'} alt="Cerveau" className="w-1/3 mx-auto" />
+                  <StaticImage
+                    src={'../../images/picto_cerveau.svg'}
+                    alt="Logo neuropsychologue lauralee Hébert"
+                    className="w-1/3 mx-auto"
+                    layout="constrained"
+                    width={240}
+                  />
                 </div>
               </div>
             </div>
