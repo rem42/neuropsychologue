@@ -102,6 +102,11 @@ const TarifsPage: FC = (): ReactElement => {
               small: "2 séances en présence de la neuropsychologue + droit d'accès logiciel internet",
               price: '180 €',
             },
+            {
+              title: 'Présence équipe éducative',
+              small: '',
+              price: '60 €<br/> + frais de déplacement',
+            },
           ]}
         />
         <Paragraph text="<p>Le cabinet offre également la possibilité de payer en trois fois, à la condition que le paiement soit effectué sous 15 jours, sinon une majoration de 20% sera appliquée.</p>" />

@@ -39,7 +39,7 @@ const PricingList: FC<{
                 <tr>
                   {tableHead.map((prop, key) => {
                     const classFirst = key === 0 ? ' rounded-tl rounded-bl' : '';
-                    const classLast = key === tableHead.length - 1 ? ' rounded-tr rounded-br' : '';
+                    const classLast = key === tableHead.length - 1 ? ' rounded-tr rounded-br text-right' : '';
                     return (
                       <th
                         key={key}
@@ -65,7 +65,10 @@ const PricingList: FC<{
                         <br />
                         <small>{line.small}</small>
                       </td>
-                      <td className={classFirst + 'px-4 py-3'}>{line.price}</td>
+                      <td
+                        className={classFirst + 'px-4 py-3 text-right'}
+                        dangerouslySetInnerHTML={{__html: line.price}}
+                      ></td>
                     </tr>
                   );
                 })}
