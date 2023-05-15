@@ -73,7 +73,7 @@ const Footer: FC<FooterLargeInterface> = ({professionals, locations, openHours, 
         <div className="relative bg-slate-100 pt-8 pb-6">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap text-center lg:text-left">
-              <div className="w-full lg:w-6/12 columns-2 px-4 text-center">
+              <div className="w-full lg:w-8/12 columns-3 px-4 text-center">
                 {professionals.map((professional, index) => (
                   <div className="w-full" key={index}>
                     <h4 className="text-xl font-bold">{professional.title}</h4>
@@ -93,7 +93,7 @@ const Footer: FC<FooterLargeInterface> = ({professionals, locations, openHours, 
                   </div>
                 ))}
               </div>
-              <div className="w-full lg:w-6/12 px-4">
+              <div className="w-full lg:w-4/12 px-4">
                 <div className="flex flex-wrap items-top mb-6">
                   <StaticImage
                     src={'../../images/picto_cerveau.svg'}

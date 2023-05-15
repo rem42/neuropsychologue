@@ -60,6 +60,11 @@ function Layout({children}) {
             description: 'Psychologue - Neuropsychologue',
             phone: '06 47 93 12 40',
           },
+          {
+            title: 'Stéphanie LACOUR',
+            description: 'Psychologue - Neuropsychologue',
+            phone: '06 51 75 52 14',
+          },
         ]}
         copyRight={new Date().getFullYear() + ' © Rémy BRUYERE'}
       />
