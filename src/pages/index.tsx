@@ -20,15 +20,11 @@ const IndexPage: React.FC<PageProps> = () => {
             button: 'Home',
             jobs: [
               {
-                name: 'Solène LABOUCHE',
-                title: 'Psychologue-Neuropsychologue',
-              },
-              {
                 name: 'Lauralee HEBERT',
                 title: 'Psychologue-Neuropsychologue',
               },
               {
-                name: 'Stéphanie LACOUR',
+                name: 'Solène LABOUCHE',
                 title: 'Psychologue-Neuropsychologue',
               },
             ],
