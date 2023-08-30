@@ -18,10 +18,10 @@ const TarifsPage: FC = (): ReactElement => {
             {
               title: 'Bilan intellectuel',
               color: 'amber',
-              price: '335 €',
+              price: '345 €',
               list: [
-                {title: '60€', description: 'Entretien anamnestique'},
-                {title: '275€', description: 'forfait du bilan intellectuel'},
+                {title: '65€', description: 'Entretien anamnestique'},
+                {title: '280€', description: 'forfait du bilan intellectuel'},
                 {title: 'Le / les séance·s', description: 'du bilan intellectuel'},
                 {title: "l'entretien de restitution", description: ''},
                 {title: 'Compte rendu', description: 'écrit'},
@@ -30,10 +30,10 @@ const TarifsPage: FC = (): ReactElement => {
             {
               title: 'Bilan neuropsychologique',
               color: 'teal',
-              price: '460 €',
+              price: '485 €',
               list: [
-                {title: '60€', description: 'Entretien anamnestique'},
-                {title: '400€', description: 'forfait du bilan neuropsychologique'},
+                {title: '65€', description: 'Entretien anamnestique'},
+                {title: '420€', description: 'forfait du bilan neuropsychologique'},
                 {title: 'Les séances', description: 'du bilan cognitif & intellectuel'},
                 {title: "l'entretien de restitution", description: ''},
                 {title: 'Compte rendu', description: 'écrit'},
@@ -59,38 +59,38 @@ const TarifsPage: FC = (): ReactElement => {
             {
               title: 'Consultation initiale / entretien anamnestique - 1h',
               small: 'Indispensable pour préparer le bilan neuropsychologique le plus adapté',
-              price: '60 €',
+              price: '65 €',
             },
             {
               title: 'Bilan psychométrique - 1h30 / 2h',
               small: 'Test de QI seulement',
-              price: '275 €',
+              price: '280 €',
             },
             {
               title: 'Bilan neuropsychologique - 2h30 / 3h',
               small: 'Évaluation de la sphère cognitive. Si test de QI < 2ans',
-              price: '350 €',
+              price: '370 €',
             },
             {
               title: 'Bilan neuropsychologique complet 3h / 4h',
               small: 'Investigation de la sphère cognitive et de la cognition sociale - Si QI<2 ans',
-              price: '400 €',
+              price: '420 €',
             },
             {
               title: 'Bilan neuropsychologique complet - 4h / 5h',
               small: 'Test de QI + bilan neuropsychologique',
-              price: '400 €',
+              price: '420 €',
             },
             {
               title: 'Bilan neuropsychologique - Lésionnel / différentiel',
               small: "Investigation de l'ensemble de la sphère cognitive",
-              price: '400 €',
+              price: '420 €',
             },
             {
               title: 'Bilan neuropsychologique - Cognition sociale - Échelle QI',
               small:
                 'Suspicion trouble envahissant du développement, affection psychotique, etc... Difficultés relations sociales, reconnaissance affect',
-              price: '475 €',
+              price: '500 €',
             },
             {
               title: 'Forfait rééducation mensuel - 45min / 1h',
@@ -100,7 +100,7 @@ const TarifsPage: FC = (): ReactElement => {
             {
               title: 'Forfait séance de remédiation à domicile',
               small: "2 séances en présence de la neuropsychologue + droit d'accès logiciel internet",
-              price: '180 €',
+              price: '180 €<br/> + frais de déplacement',
             },
             {
               title: 'Présence équipe éducative',
