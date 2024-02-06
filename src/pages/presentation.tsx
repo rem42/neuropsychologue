@@ -44,7 +44,7 @@ const PresentationPage: FC = (): ReactElement => {
           ]}
           subDescription="Au cours de ma formation universitaire et de mon expérience professionnelle, j’ai acquis les aptitudes et les connaissances dans la prise en charge d’enfants, d’adolescents et d’adultes, souffrant de difficultés cognitives d’origines diverses : neurologiques ; psychiatriques ; développementales"
         />
-        <div className="flex flex-wrap items-center mt-32">
+        <div className="flex flex-wrap items-center mt-32 mb-32">
           <div className="w-full md:w-8/12 px-4 mr-auto ml-auto">
             <InfoAreaIconTitle
               title="Une prise en charge individualisée"
@@ -85,6 +85,45 @@ const PresentationPage: FC = (): ReactElement => {
             {
               title: 'Master 1 en psychologie parcours neuropsychologie – Université  lumière de Lyon 2',
               description: [],
+            },
+          ]}
+          subDescription=""
+        />
+        <Education
+          title="Radja DOUAR"
+          subtitle="Psychologue - Neuropsychologue"
+          jobs={[
+            {
+              title: 'Cabinet de psychologie Faty guessoum',
+              description: ['Psychologue-Neuropsychologue à Paris'],
+            },
+            {
+              title: 'Master Psychologie cognitive des apprentissages',
+              description: [],
+            },
+            {
+              title: 'Master psychologie et Psychopathologie clinique',
+              description: [],
+            },
+            {
+              title: 'DU Psychothérapie',
+              description: [],
+            },
+            {
+              title: 'DU Psychopathologie juvénile',
+              description: [],
+            },
+            {
+              title: 'Service neurochirurgie pédiatrique HFME',
+              description: ['Stage neuropsychologie'],
+            },
+            {
+              title: 'CMP Bourgoin Jallieu',
+              description: ['Stage neuropsychologie'],
+            },
+            {
+              title: 'CHAL service Alzheimer',
+              description: ['Stage neuropsychologie'],
             },
           ]}
           subDescription=""

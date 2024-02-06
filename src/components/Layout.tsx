@@ -60,6 +60,11 @@ function Layout({children}) {
             description: 'Psychologue - Neuropsychologue',
             phone: '06 47 93 12 40',
           },
+          {
+            title: 'Radja DOUAR',
+            description: 'Psychologue - Neuropsychologue',
+            phone: '06 70 21 82 67',
+          },
         ]}
         copyRight={new Date().getFullYear() + ' © Rémy BRUYERE'}
       />

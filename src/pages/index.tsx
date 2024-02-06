@@ -27,6 +27,10 @@ const IndexPage: React.FC<PageProps> = () => {
                 name: 'Solène LABOUCHE',
                 title: 'Psychologue-Neuropsychologue',
               },
+              {
+                name: 'Radja DOUAR',
+                title: 'Psychologue-Neuropsychologue',
+              },
             ],
           }}
         />
