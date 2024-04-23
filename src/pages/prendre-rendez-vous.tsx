@@ -29,7 +29,7 @@ const PrendreRendezVousPage: FC = (): ReactElement => {
                     ]}
                   />
                 </div>
-                <div className="px-4 relative w-full lg:w-4/12 w-full md:w-4/12">
+                {/*<div className="px-4 relative w-full lg:w-4/12 w-full md:w-4/12">
                   <CardProfileFull
                     title="Solène LABOUCHE"
                     description="Psychologue - Neuropsychologue"
@@ -39,13 +39,13 @@ const PrendreRendezVousPage: FC = (): ReactElement => {
                       {icon: 'fas fa-envelope', text: 'neuropsy.labouche@gmail.com', color: 'indigo'},
                     ]}
                   />
-                </div>
+                </div>*/}
                 <div className="px-4 relative w-full lg:w-4/12 w-full md:w-4/12">
                   <CardProfileFull
                     title="Radja DOUAR"
                     description="Psychologue - Neuropsychologue"
                     list={[
-                      {icon: 'fas fa-map-marker-alt', text: 'Lyon', color: 'lightBlue'},
+                      {icon: 'fas fa-map-marker-alt', text: 'Lyon & Brignais', color: 'lightBlue'},
                       {icon: 'fas fa-phone', text: '06 70 21 82 67', color: 'teal'},
                       {icon: 'fas fa-envelope', text: 'rdouarneuropsychologue@gmail.com', color: 'indigo'},
                     ]}

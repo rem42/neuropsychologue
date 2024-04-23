@@ -55,11 +55,11 @@ function Layout({children}) {
             description: 'Psychologue - Neuropsychologue',
             phone: '06 52 45 35 38',
           },
-          {
+          /*{
             title: 'Solène LABOUCHE',
             description: 'Psychologue - Neuropsychologue',
             phone: '06 47 93 12 40',
-          },
+          },*/
           {
             title: 'Radja DOUAR',
             description: 'Psychologue - Neuropsychologue',

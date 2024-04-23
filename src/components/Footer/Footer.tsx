@@ -22,6 +22,7 @@ export interface FooterLargeInterface {
 }
 
 const Footer: FC<FooterLargeInterface> = ({professionals, locations, openHours, copyRight}): ReactElement => {
+  const professionalsColumns = ' columns-' + professionals.length;
   return (
     <>
       <footer>
@@ -73,7 +74,7 @@ const Footer: FC<FooterLargeInterface> = ({professionals, locations, openHours, 
         <div className="relative bg-slate-100 pt-8 pb-6">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap text-center lg:text-left">
-              <div className="w-full lg:w-8/12 columns-3 px-4 text-center">
+              <div className={'w-full lg:w-8/12 px-4 text-center' + professionalsColumns}>
                 {professionals.map((professional, index) => (
                   <div className="w-full" key={index}>
                     <h4 className="text-xl font-bold">{professional.title}</h4>
@@ -108,7 +109,11 @@ const Footer: FC<FooterLargeInterface> = ({professionals, locations, openHours, 
             <hr className="my-6 border-slate-200" />
             <div className="flex flex-wrap items-center md:justify-between justify-center">
               <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-                <div className="text-sm text-slate-500 py-1">{copyRight}</div>
+                <div className="text-sm text-slate-500 py-1">
+                  <a href="https://remy.ovh/" target="_blank">
+                    {copyRight}
+                  </a>
+                </div>
               </div>
             </div>
           </div>

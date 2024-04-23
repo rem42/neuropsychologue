@@ -18,6 +18,8 @@ const HeaderHome: FC<{props: HeaderHomeInterface}> = ({props}): ReactElement => 
     `,
   );
 
+  const classJobs = props.jobs.length === 3 ? 'lg:w-4/12 md:w-4/12' : 'lg:w-6/12 md:w-6/12';
+
   return (
     <>
       <div className="p-0 flex items-center overflow-hidden relative min-h-screen-60">
@@ -63,7 +65,9 @@ const HeaderHome: FC<{props: HeaderHomeInterface}> = ({props}): ReactElement => 
                   <div
                     key={index}
                     className={
-                      'px-6 relative w-full lg:w-4/12 w-full md:w-4/12 ' +
+                      'px-6 relative w-full ' +
+                      classJobs +
+                      ' ' +
                       (props.jobs.length !== index + 1 ? 'md:border-r max-sm:border-b' : null)
                     }
                   >

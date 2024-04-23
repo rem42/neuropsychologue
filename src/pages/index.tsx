@@ -23,10 +23,10 @@ const IndexPage: React.FC<PageProps> = () => {
                 name: 'Lauralee HEBERT',
                 title: 'Psychologue-Neuropsychologue',
               },
-              {
+              /*{
                 name: 'Solène LABOUCHE',
                 title: 'Psychologue-Neuropsychologue',
-              },
+              },*/
               {
                 name: 'Radja DOUAR',
                 title: 'Psychologue-Neuropsychologue',

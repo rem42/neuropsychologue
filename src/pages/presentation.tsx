@@ -56,7 +56,7 @@ const PresentationPage: FC = (): ReactElement => {
             />
           </div>
         </div>
-        <Education
+        {/*<Education
           title="Solène LABOUCHE"
           subtitle="Psychologue - Neuropsychologue"
           jobs={[
@@ -88,7 +88,7 @@ const PresentationPage: FC = (): ReactElement => {
             },
           ]}
           subDescription=""
-        />
+        />*/}
         <Education
           title="Radja DOUAR"
           subtitle="Psychologue - Neuropsychologue"
