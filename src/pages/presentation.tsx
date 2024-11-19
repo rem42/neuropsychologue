@@ -16,12 +16,27 @@ const PresentationPage: FC = (): ReactElement => {
           subtitle="Psychologue - Neuropsychologue"
           jobs={[
             {
+              title: 'Enseignante à la faculté de médecin à la faculté de médecin de Lyon Est',
+              description: [
+                'Formation : Master 1 Santé publique prcs Initiation à la recherche b',
+                "RB39 Neurobiologie des processus d'apprentissage",
+              ],
+            },
+            {
+              title: 'Formatrice au CEFTI',
+              description: ["Trouble de l'attention et difficultés de concentration"],
+            },
+            {
               title: 'Enseignante à l’université lumière à Lyon 2 – Neuropsychologie',
               description: ['Licence et master'],
             },
             {
               title: 'Formatrice – neurodiff',
-              description: ['La précocité intellectuel – Haut potentiel', 'Supervision – le WISC-V'],
+              description: [
+                'La précocité intellectuel – Haut potentiel',
+                'Supervision – le WISC-V',
+                "Bilan neuropsychologique et comportemental chez l'enfant - le WISC-V",
+              ],
             },
             {
               title: 'Intervenante colloque « la dyslexie à l’âge adulte »',

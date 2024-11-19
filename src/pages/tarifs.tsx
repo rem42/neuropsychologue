@@ -18,10 +18,10 @@ const TarifsPage: FC = (): ReactElement => {
             {
               title: 'Bilan intellectuel',
               color: 'amber',
-              price: '345 €',
+              price: '355 €',
               list: [
                 {title: '65€', description: 'Entretien anamnestique'},
-                {title: '280€', description: 'forfait du bilan intellectuel'},
+                {title: '290€', description: 'forfait du bilan intellectuel'},
                 {title: 'Le / les séance·s', description: 'du bilan intellectuel'},
                 {title: "l'entretien de restitution", description: ''},
                 {title: 'Compte rendu', description: 'écrit'},
@@ -30,10 +30,10 @@ const TarifsPage: FC = (): ReactElement => {
             {
               title: 'Bilan neuropsychologique',
               color: 'teal',
-              price: '485 €',
+              price: '505 €',
               list: [
                 {title: '65€', description: 'Entretien anamnestique'},
-                {title: '420€', description: 'forfait du bilan neuropsychologique'},
+                {title: '440€', description: 'forfait du bilan neuropsychologique'},
                 {title: 'Les séances', description: 'du bilan cognitif & intellectuel'},
                 {title: "l'entretien de restitution", description: ''},
                 {title: 'Compte rendu', description: 'écrit'},
@@ -57,43 +57,43 @@ const TarifsPage: FC = (): ReactElement => {
           tableHead={['Prestation', 'Tarif']}
           tableBody={[
             {
-              title: 'Consultation initiale / entretien anamnestique - 1h',
+              title: 'Consultation initiale / entretien anamnestique',
               small: 'Indispensable pour préparer le bilan neuropsychologique le plus adapté',
               price: '65 €',
             },
             {
-              title: 'Bilan psychométrique - 1h30 / 2h',
+              title: 'Bilan psychométrique - 1 séance de bilan',
               small: 'Test de QI seulement',
-              price: '280 €',
+              price: '290 €',
             },
             {
-              title: 'Bilan neuropsychologique - 2h30 / 3h',
+              title: 'Bilan neuropsychologique - 2 séances de bilan (si QI < 2 ans)',
               small: 'Évaluation de la sphère cognitive. Si test de QI < 2ans',
-              price: '370 €',
+              price: '390 €',
             },
             {
-              title: 'Bilan neuropsychologique complet 3h / 4h',
-              small: 'Investigation de la sphère cognitive et de la cognition sociale - Si QI<2 ans',
-              price: '420 €',
+              title: 'Bilan neuropsychologique + la cognition sociale - 3 séances de bilan (si QI < 2 ans)',
+              small: 'Investigation de la sphère cognitive et de la cognition sociale - Si QI < 2 ans',
+              price: '440 €',
             },
             {
-              title: 'Bilan neuropsychologique complet - 4h / 5h',
+              title: 'Bilan neuropsychologique complet - 3 séances de bilan',
               small: 'Test de QI + bilan neuropsychologique',
-              price: '420 €',
+              price: '440 €',
             },
             {
-              title: 'Bilan neuropsychologique - Lésionnel / différentiel',
+              title: 'Bilan neuropsychologique - Lésionnel / différentiel - 2 séances de bilan',
               small: "Investigation de l'ensemble de la sphère cognitive",
-              price: '420 €',
+              price: '440 €',
             },
             {
-              title: 'Bilan neuropsychologique - Cognition sociale - Échelle QI',
+              title: 'Bilan neuropsychologique - Cognition sociale - Échelle QI - 4 séances de bilan',
               small:
                 'Suspicion trouble envahissant du développement, affection psychotique, etc... Difficultés relations sociales, reconnaissance affect',
-              price: '500 €',
+              price: '520 €',
             },
             {
-              title: 'Forfait rééducation mensuel - 45min / 1h',
+              title: 'Forfait rééducation mensuel',
               small: '1 séances par semaine',
               price: '200 €',
             },
@@ -105,7 +105,12 @@ const TarifsPage: FC = (): ReactElement => {
             {
               title: 'Présence équipe éducative',
               small: '',
-              price: '60 €<br/> + frais de déplacement',
+              price: '65 €<br/> + frais de déplacement',
+            },
+            {
+              title: 'Séance de suivi en psychologie',
+              small: '',
+              price: '65 €',
             },
           ]}
         />
