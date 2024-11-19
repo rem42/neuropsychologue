@@ -23,8 +23,8 @@ const PresentationPage: FC = (): ReactElement => {
               ],
             },
             {
-              title: 'Formatrice au CEFTI',
-              description: ["Trouble de l'attention et difficultés de concentration"],
+              title: 'Formatrice Catherine Lapsy',
+              description: ["Trouble de l'attention et difficultés de concentration : Agir, Diagnostiquer et Comprendre"],
             },
             {
               title: 'Enseignante à l’université lumière à Lyon 2 – Neuropsychologie',
