@@ -61,9 +61,9 @@ function Layout({children}) {
             phone: '06 47 93 12 40',
           },*/
           {
-            title: 'Radja DOUAR',
+            title: 'Florine PAILLASSE',
             description: 'Psychologue - Neuropsychologue',
-            phone: '06 70 21 82 67',
+            phone: '07 57 83 85 13',
           },
         ]}
         copyRight={new Date().getFullYear() + ' © Rémy BRUYERE'}

@@ -72,7 +72,7 @@ const HeaderHome: FC<{props: HeaderHomeInterface}> = ({props}): ReactElement => 
                     }
                   >
                     <div className="text-center py-2">
-                      <h4 className="text-4xl md:text-5xl font-extrabold leading-tight mt-0 mb-0">{job.name}</h4>
+                      <h4 className="text-4xl font-extrabold leading-tight mt-0 mb-0">{job.name}</h4>
                       <h5 className="text-xl font-semibold mt-2 mb-1">{job.title}</h5>
                     </div>
                   </div>

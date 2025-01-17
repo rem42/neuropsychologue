@@ -105,41 +105,10 @@ const PresentationPage: FC = (): ReactElement => {
           subDescription=""
         />*/}
         <Education
-          title="Radja DOUAR"
+          title="Florine PAILLASSE"
           subtitle="Psychologue - Neuropsychologue"
           jobs={[
-            {
-              title: 'Cabinet de psychologie Faty guessoum',
-              description: ['Psychologue-Neuropsychologue à Paris'],
-            },
-            {
-              title: 'Master Psychologie cognitive des apprentissages',
-              description: [],
-            },
-            {
-              title: 'Master psychologie et Psychopathologie clinique',
-              description: [],
-            },
-            {
-              title: 'DU Psychothérapie',
-              description: [],
-            },
-            {
-              title: 'DU Psychopathologie juvénile',
-              description: [],
-            },
-            {
-              title: 'Service neurochirurgie pédiatrique HFME',
-              description: ['Stage neuropsychologie'],
-            },
-            {
-              title: 'CMP Bourgoin Jallieu',
-              description: ['Stage neuropsychologie'],
-            },
-            {
-              title: 'CHAL service Alzheimer',
-              description: ['Stage neuropsychologie'],
-            },
+
           ]}
           subDescription=""
         />

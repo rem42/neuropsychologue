@@ -23,7 +23,7 @@ const PrendreRendezVousPage: FC = (): ReactElement => {
                     title="Lauralee HÉBERT"
                     description="Psychologue - Neuropsychologue"
                     list={[
-                      {icon: 'fas fa-map-marker-alt', text: 'Lyon & Brignais', color: 'lightBlue'},
+                      {icon: 'fas fa-map-marker-alt', text: 'Brignais', color: 'lightBlue'},
                       {icon: 'fas fa-phone', text: '06 52 45 35 38', color: 'teal'},
                       {icon: 'fas fa-envelope', text: 'lhebert.neuropsychologue@gmail.com', color: 'indigo'},
                     ]}
@@ -42,12 +42,12 @@ const PrendreRendezVousPage: FC = (): ReactElement => {
                 </div>*/}
                 <div className="px-4 relative w-full lg:w-4/12 w-full md:w-4/12">
                   <CardProfileFull
-                    title="Radja DOUAR"
+                    title="Florine PAILLASSE"
                     description="Psychologue - Neuropsychologue"
                     list={[
-                      {icon: 'fas fa-map-marker-alt', text: 'Lyon & Brignais', color: 'lightBlue'},
-                      {icon: 'fas fa-phone', text: '06 70 21 82 67', color: 'teal'},
-                      {icon: 'fas fa-envelope', text: 'rdouarneuropsychologue@gmail.com', color: 'indigo'},
+                      {icon: 'fas fa-map-marker-alt', text: 'Lyon', color: 'lightBlue'},
+                      {icon: 'fas fa-phone', text: '07 57 83 85 13', color: 'teal'},
+                      {icon: 'fas fa-envelope', text: 'florinepls@gmail.com', color: 'indigo'},
                     ]}
                   />
                 </div>
